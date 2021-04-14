@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/menu_register"
+        android:background="@drawable/background_layout"
+        android:layout_margin="44dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="44dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textSize="18sp"
+            android:layout_marginTop="66dp"
+            android:textColorHint="@color/grey"
+            android:inputType="text"
+            android:id="@+id/name_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields"
+            android:hint="@string/name"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/email_register"
+            android:textSize="18sp"
+            android:textColorHint="@color/grey"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields"
+            android:hint="@string/email"
+            android:textColor="@color/black"
+            android:layout_marginTop="11dp"
+            />
+        <EditText
+            android:id="@+id/password_register"
+            android:textSize="18sp"
+            android:textColorHint="@color/grey"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields"
+            android:hint="@string/password"
+            android:textColor="@color/black"
+            android:layout_marginTop="11dp"
+            />
+        <TextView
+            android:layout_marginTop="11dp"
+            android:textSize="18sp"
+            android:text="@string/iam"
+            android:layout_marginStart="3dp"
+            android:textColor="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/man_woman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radio_man"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/man"
+                android:checked="true"
+                android:textSize="18sp" />
+            <RadioButton
+                android:id="@+id/radio_woman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/woman"
+                android:textSize="18sp" />
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="11dp"
+            android:textSize="18sp"
+            android:text="@string/want_meet"
+            android:layout_marginStart="3dp"
+            android:textColor="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/search_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/search_man"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/man"
+                android:textSize="18sp" />
+            <RadioButton
+                android:id="@+id/search_woman"
+                android:checked="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/woman"
+                android:textSize="18sp" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/register_city"
+            android:textSize="18sp"
+            android:textColorHint="@color/grey"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill,TextFields"
+            android:hint="@string/city"
+            android:textColor="@color/black"
+            android:layout_marginTop="11dp"
+            />
+        <Button
+            android:id="@+id/btn_register"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/red_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:layout_marginTop="54dp"
+            />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="150dp" />
+    </LinearLayout>
+
+
+</ScrollView>

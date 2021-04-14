@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="22dp"
+        android:id="@+id/cardView1"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/cover_image"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cover"
+                android:contentDescription="@string/app_name"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp"
+                android:src="@drawable/user"
+                />
+            <TextView
+                android:id="@+id/user_name"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/user_image"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="7dp"
+        app:cardCornerRadius="7dp"
+        android:layout_margin="22dp"
+        android:id="@+id/bottomCardviewDisplay"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/about_me"
+            android:padding="11dp"
+            android:textSize="18sp"
+            android:text="@string/about_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+<!--
+    <Button
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/bottomCardviewDisplay"
+        android:id="@+id/sentMsgButton"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red_white"
+        android:textAllCaps="false"
+        android:text="@string/sent_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+-->
+
+</RelativeLayout>
+
+</ScrollView>

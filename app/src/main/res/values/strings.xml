@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Pica Pica</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="welcome">Welcome</string>
+    <string name="register">Register</string>
+    <string name="enter">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_data">Enter data correctly and completely</string>
+    <string name="name">Name</string>
+    <string name="iam">I am</string>
+    <string name="woman">Woman</string>
+    <string name="man">Man</string>
+    <string name="want_meet">I want to meet</string>
+    <string name="city">My city</string>
+    <string name="my_profile">My profile</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="exit_the_app">Go out</string>
+    <string name="chats">Chats</string>
+    <string name="users">Users</string>
+    <string name="about_me">About me</string>
+    <string name="sent_message">Sent message</string>
+    <string name="error_ocurrid">ERROR OCURRIED !!!</string>
+    <string name="change_about_me">Change about me?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="change_name">Change your name</string>
+    <string name="loading">Please wait! This may take a moment</string>
+    <string name="visit_profile">Visit profile</string>
+    <string name="options">Options</string>
+    <string name="writeMessage">Write message</string>
+    <string name="upload_profile_image">Before you upload your profile image</string>
+</resources>

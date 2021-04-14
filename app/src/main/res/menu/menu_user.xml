@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="radio.budilnik.Index">
+    <item
+        android:orderInCategory="50"
+        android:id="@+id/my_profile"
+        android:title="@string/my_profile"
+        />
+    <item
+        android:orderInCategory="60"
+        android:id="@+id/comment"
+        android:title="@string/comment"
+        />
+    <item
+        android:orderInCategory="70"
+        android:id="@+id/share"
+        android:title="@string/share"
+        />
+    <item
+        android:id="@+id/exit_the_app"
+        android:orderInCategory="100"
+        android:title="@string/exit_the_app"
+        />
+
+</menu>

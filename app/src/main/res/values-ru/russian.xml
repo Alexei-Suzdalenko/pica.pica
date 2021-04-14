@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pica Pica</string>
+    <string name="tab_text_1">Вкладка 1</string>
+    <string name="tab_text_2">Вкладка 2</string>
+    <string name="welcome">Привет</string>
+    <string name="register">Регистрация</string>
+    <string name="enter">Логин</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="enter_data">Введите данные правильно и полностью</string>
+    <string name="name">Имя</string>
+    <string name="iam">Я</string>
+    <string name="woman">Женщина</string>
+    <string name="man">Мужчина</string>
+    <string name="want_meet">Хочу встретиться</string>
+    <string name="city">Мой город</string>
+    <string name="my_profile">Mой перфиль</string>
+    <string name="comment">Комментарий</string>
+    <string name="share">Поделиться</string>
+    <string name="exit_the_app">Выйти</string>
+    <string name="chats">Чат</string>
+    <string name="users">Пользователи</string>
+    <string name="about_me">О мне</string>
+    <string name="sent_message">Отправить сообщение</string>
+    <string name="error_ocurrid">ERROR OCURRIED !!!</string>
+    <string name="change_about_me">Изменить</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="change_name">Изменить имя</string>
+    <string name="loading">Пожалуйста, подождите! Это может занять мгновение</string>
+    <string name="visit_profile">Профиль</string>
+    <string name="options">Варианты</string>
+    <string name="writeMessage">Пишите сообщение</string>
+    <string name="upload_profile_image">Загрузите изображение профиля</string>
+</resources>

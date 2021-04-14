@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1075424477864",
+    "firebase_url": "https://pica-pica-pi-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pica-pica-pi",
+    "storage_bucket": "pica-pica-pi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075424477864:android:f79a437f247fd8a66ef89d",
+        "android_client_info": {
+          "package_name": "pica.pica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075424477864-kla33ndi7tfctb105ap8eer64dmsnoj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoYKrfwLjaXcy3jryVeuextzLPp6wsrxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075424477864-kla33ndi7tfctb105ap8eer64dmsnoj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

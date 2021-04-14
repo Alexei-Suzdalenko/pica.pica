@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pica Pica</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="register">Registrati</string>
+    <string name="enter">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_data">Inserisci i dati correttamente e completamente</string>
+    <string name="name">Nome</string>
+    <string name="iam">Io sono</string>
+    <string name="woman">Donna</string>
+    <string name="man">Uomo</string>
+    <string name="want_meet">Voglio incontrare</string>
+    <string name="city">La mia città</string>
+    <string name="my_profile">Il mio profilo</string>
+    <string name="comment">Commento</string>
+    <string name="share">Condividi</string>
+    <string name="exit_the_app">Vai fuori</string>
+    <string name="chats">Chats</string>
+    <string name="users">Users</string>
+    <string name="about_me">Chi sono</string>
+    <string name="sent_message">Messaggio inviato</string>
+    <string name="error_ocurrid">ERROR OCURRIED !!!</string>
+    <string name="change_about_me">Cambiamenti su di me?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="change_name">Cambia il tuo nome</string>
+    <string name="loading">Per favore aspetta! Questo potrebbe richiedere un momento</string>.
+    <string name="visit_profile">Visita il profilo</string>
+    <string name="options">Opzioni</string>
+    <string name="writeMessage">Scrivi messaggio</string>
+    <string name="upload_profile_image">Prima di caricare la tua immagine del profilo</string>
+</resources>
